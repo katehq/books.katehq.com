@@ -8,8 +8,6 @@ body {
 .cell{
     border: 1px solid;
     margin: 1px 0;
-}
-.container {
     padding: 2px;
 }
 .cell div {
@@ -19,7 +17,7 @@ body {
 .container img {
     height: 60px;
 }
-span {
+.container span {
     vertical-align: top;
 }
 
