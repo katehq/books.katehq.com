@@ -5,16 +5,22 @@ body {
     width: 52em;
 }
 
-.container div {
+.cell{
     border: 1px solid;
     margin: 1px 0;
 }
-
+.container {
+    padding: 2px;
+}
+.cell div {
+    white-space: nowrap;
+    display: inline;
+}
 .container img {
     height: 60px;
 }
 span {
-    vertical-align:middle;
+    vertical-align: top;
 }
 
 @media all and (max-width: 768px) {
