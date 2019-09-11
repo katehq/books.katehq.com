@@ -10,15 +10,19 @@ body {
     margin: 1px 0;
     padding: 2px;
 }
-.cell div {
-    white-space: nowrap;
-    display: inline;
+.cell{
+    display: flex;
+    flex-direction: row;
 }
 .container img {
     height: 60px;
 }
 .container span {
     vertical-align: top;
+}
+
+.author-name {
+    font-size: 10px;
 }
 
 @media all and (max-width: 768px) {
